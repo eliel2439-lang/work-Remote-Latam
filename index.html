@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#07151b" />
+  <title>Work Remote Latam | Auditoria Empresarial em Araraquara - SP</title>
+  <meta name="description" content="Work Remote Latam: empresa de auditoria em Araraquara/SP. Análise estruturada de processos, informações, controles e riscos para apoiar decisões empresariais mais seguras." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Work Remote Latam | Auditoria Empresarial" />
+  <meta property="og:description" content="Clareza, controle e confiança para decisões empresariais mais seguras." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Work Remote Latam | Auditoria Empresarial" />
+  <meta name="twitter:description" content="Auditoria empresarial, análise de processos, controles e riscos em Araraquara/SP." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ProfessionalService",
+    "name":"Work Remote Latam",
+    "description":"Empresa de auditoria em Araraquara, São Paulo.",
+    "telephone":"+55 16 99106-2614",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"R. Edson Alberto Morandi",
+      "addressLocality":"Araraquara",
+      "addressRegion":"SP",
+      "postalCode":"14808-326",
+      "addressCountry":"BR"
+    },
+    "areaServed":"Araraquara, SP"
+  }
+  </script>
+  <style>
+    :root{
+      --bg:#061117;
+      --bg2:#081820;
+      --panel:#0b1d25;
+      --panel2:#0d232d;
+      --text:#f4f8fa;
+      --muted:#9db0b9;
+      --line:rgba(255,255,255,.10);
+      --accent:#51e0c1;
+      --accent2:#52b8ff;
+      --danger:#ffb15c;
+      --shadow:0 28px 70px rgba(0,0,0,.34);
+      --radius:26px;
+      --max:1200px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:linear-gradient(180deg,#061117 0%,#07141b 45%,#08131a 100%);color:var(--text);font-family:"DM Sans",system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.6;overflow-x:hidden}
+    body::before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 78% 16%,rgba(82,184,255,.07),transparent 30%),radial-gradient(circle at 10% 30%,rgba(81,224,193,.05),transparent 24%);z-index:-1}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    button,input,select,textarea{font:inherit}
+    .wrap{width:min(calc(100% - 40px),var(--max));margin-inline:auto}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:.78rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+    .eyebrow::before{content:"";width:22px;height:1px;background:var(--accent)}
+    h1,h2,h3{font-family:"Manrope",sans-serif;line-height:1.06;letter-spacing:-.035em;margin:0}
+    h1{font-size:clamp(3rem,7vw,6.4rem);max-width:980px}
+    h2{font-size:clamp(2.2rem,4.6vw,4.45rem);max-width:880px}
+    h3{font-size:1.25rem}
+    p{margin:0;color:var(--muted)}
+    .lead{font-size:clamp(1.05rem,1.8vw,1.28rem);max-width:720px;color:#c9d6dc}
+    .section{padding:110px 0}
+    .section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:48px}
+    .section-head p{max-width:560px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:15px 22px;font-weight:800;border:1px solid var(--line);transition:.25s ease;cursor:pointer}
+    .btn-primary{background:var(--accent);color:#042019;border-color:transparent;box-shadow:0 14px 34px rgba(81,224,193,.18)}
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 44px rgba(81,224,193,.26)}
+    .btn-ghost{background:rgba(255,255,255,.03)}
+    .btn-ghost:hover{background:rgba(255,255,255,.07);transform:translateY(-2px)}
+    .icon{width:20px;height:20px;display:inline-block}
+
+    /* HEADER */
+    header{position:fixed;top:0;left:0;right:0;z-index:80;background:rgba(5,16,22,.70);backdrop-filter:blur(18px);border-bottom:1px solid transparent;transition:.25s}
+    header.scrolled{border-color:var(--line);background:rgba(5,16,22,.90)}
+    .nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+    .brand{display:flex;align-items:center;gap:14px;min-width:210px}
+    .brand-mark{width:45px;height:45px;border-radius:14px;border:1px solid rgba(81,224,193,.35);display:grid;place-items:center;background:linear-gradient(145deg,rgba(81,224,193,.15),rgba(82,184,255,.08));font-family:"Manrope";font-weight:800;color:var(--accent)}
+    .brand-copy{display:flex;flex-direction:column;line-height:1.05}
+    .brand-copy strong{font-family:"Manrope";font-size:.95rem;letter-spacing:-.02em}
+    .brand-copy span{font-size:.66rem;letter-spacing:.15em;text-transform:uppercase;color:#90a6b0;margin-top:5px}
+    nav{display:flex;align-items:center;gap:28px}
+    nav a{font-size:.93rem;color:#bfd0d7;font-weight:700;position:relative}
+    nav a::after{content:"";position:absolute;left:0;right:100%;bottom:-8px;height:1px;background:var(--accent);transition:.25s}
+    nav a:hover::after{right:0}
+    .menu-btn{display:none;width:44px;height:44px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.03);color:white}
+
+    /* HERO */
+    .hero{min-height:100svh;padding:150px 0 90px;display:flex;align-items:center;position:relative;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:54px;align-items:center}
+    .hero-copy{position:relative;z-index:2}
+    .hero h1 span{background:linear-gradient(90deg,#fff 0%,#dce9ee 50%,#72e8d0 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .hero-copy .lead{margin-top:26px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}
+    .hero-proof{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:48px}
+    .proof{padding:16px 14px;border-top:1px solid var(--line)}
+    .proof strong{display:block;font-family:"Manrope";font-size:.92rem}
+    .proof span{display:block;color:#8098a3;font-size:.76rem;margin-top:2px}
+    .hero-visual{position:relative;min-height:610px}
+    .hero-photo{position:absolute;inset:0 0 35px 55px;border-radius:34px;overflow:hidden;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.10)}
+    .hero-photo img{width:100%;height:100%;object-fit:cover;filter:saturate(.78) contrast(1.05)}
+    .hero-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(3,14,19,.05),rgba(3,14,19,.72)),linear-gradient(90deg,rgba(3,14,19,.46),transparent 55%)}
+    .dashboard{position:absolute;left:0;bottom:0;width:66%;padding:20px;background:rgba(9,28,36,.93);border:1px solid rgba(255,255,255,.11);backdrop-filter:blur(16px);border-radius:22px;box-shadow:var(--shadow)}
+    .dash-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+    .dash-head small{color:#89a0aa}.status{font-size:.72rem;color:var(--accent);background:rgba(81,224,193,.10);padding:6px 10px;border-radius:999px}
+    .bars{display:grid;grid-template-columns:repeat(10,1fr);gap:6px;height:90px;align-items:end}
+    .bars i{display:block;background:linear-gradient(180deg,var(--accent2),var(--accent));border-radius:5px 5px 1px 1px;opacity:.88}
+    .floating-note{position:absolute;right:-10px;top:45px;background:rgba(8,26,33,.94);border:1px solid var(--line);border-radius:18px;padding:16px 18px;max-width:225px;box-shadow:var(--shadow)}
+    .floating-note strong{font-size:.88rem}.floating-note p{font-size:.76rem;margin-top:4px}
+    .orb{position:absolute;width:430px;height:430px;border-radius:50%;right:-110px;top:110px;background:radial-gradient(circle,rgba(82,184,255,.14),transparent 65%);filter:blur(4px)}
+
+    /* STRIP */
+    .strip{border-block:1px solid var(--line);background:rgba(255,255,255,.018)}
+    .strip-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+    .strip-item{padding:28px 24px;border-right:1px solid var(--line)}
+    .strip-item:last-child{border-right:0}
+    .strip-item b{font-family:"Manrope";display:block;margin-bottom:5px}.strip-item span{color:#859ba5;font-size:.88rem}
+
+    /* CHALLENGES */
+    .challenge-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.018));border-radius:var(--radius);padding:28px;transition:.25s;position:relative;overflow:hidden}
+    .card:hover{transform:translateY(-5px);border-color:rgba(81,224,193,.28);background:linear-gradient(180deg,rgba(81,224,193,.055),rgba(255,255,255,.018))}
+    .card-number{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(81,224,193,.10);color:var(--accent);font-weight:800;margin-bottom:40px}
+    .card h3{margin-bottom:10px}.card p{font-size:.93rem}
+
+    /* SERVICES */
+    .services{background:#07151c;border-block:1px solid rgba(255,255,255,.06)}
+    .services-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .service{min-height:310px;display:flex;flex-direction:column;justify-content:flex-end;padding:32px;border-radius:28px;position:relative;overflow:hidden;border:1px solid var(--line);background:#0b1d25}
+    .service::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 85% 15%,rgba(82,184,255,.12),transparent 40%)}
+    .service:nth-child(2)::before,.service:nth-child(3)::before{background:radial-gradient(circle at 15% 15%,rgba(81,224,193,.12),transparent 42%)}
+    .service .tag{position:absolute;top:24px;left:24px;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:#8aa0aa}
+    .service h3{font-size:1.65rem;max-width:430px}.service p{max-width:560px;margin-top:12px}
+
+    /* METHOD */
+    .method{display:grid;grid-template-columns:.84fr 1.16fr;gap:54px;align-items:start}
+    .method-sticky{position:sticky;top:120px}
+    .method-sticky p{margin-top:20px;max-width:460px}
+    .steps{display:flex;flex-direction:column;gap:14px}
+    .step{display:grid;grid-template-columns:64px 1fr;gap:22px;padding:26px;border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.02)}
+    .step-num{font-family:"Manrope";font-weight:800;font-size:1.4rem;color:var(--accent)}
+    .step p{font-size:.92rem;margin-top:8px}
+
+    /* FEATURE */
+    .feature{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}
+    .feature-visual{min-height:580px;border-radius:30px;overflow:hidden;position:relative;border:1px solid var(--line)}
+    .feature-visual img{width:100%;height:100%;object-fit:cover;filter:saturate(.72)}
+    .feature-visual::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 38%,rgba(4,14,19,.86))}
+    .feature-copy{border:1px solid var(--line);border-radius:30px;padding:48px;background:linear-gradient(180deg,#0b1e27,#091820);display:flex;flex-direction:column;justify-content:center}
+    .feature-copy h2{font-size:clamp(2.2rem,4vw,3.8rem);margin-top:14px}.feature-copy .lead{margin-top:20px}
+    .feature-list{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:34px}
+    .check{padding:15px;border:1px solid var(--line);border-radius:16px;font-size:.88rem;color:#c9d6dc;display:flex;gap:9px;align-items:center}.check b{color:var(--accent)}
+
+    /* WHO */
+    .who-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}
+    .who-main,.who-side{border-radius:28px;border:1px solid var(--line);padding:38px;background:rgba(255,255,255,.025)}
+    .who-main h2{font-size:clamp(2.4rem,4vw,4rem);margin:12px 0 22px}.who-main p{font-size:1.02rem;max-width:720px}
+    .who-side{display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(160deg,rgba(81,224,193,.09),rgba(82,184,255,.04))}
+    .who-side .quote{font-family:"Manrope";font-size:1.45rem;line-height:1.35;letter-spacing:-.025em}
+    .who-side small{color:#8298a2}
+
+    /* CONTEXTS */
+    .contexts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .context{min-height:190px;padding:24px;border-radius:22px;border:1px solid var(--line);display:flex;flex-direction:column;justify-content:space-between;background:#0a1b23}
+    .context span{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:#718891}.context h3{font-size:1.18rem}
+
+    /* INSIGHTS */
+    .insights{display:grid;grid-template-columns:1.25fr .75fr .75fr;gap:16px}
+    .article{border:1px solid var(--line);border-radius:26px;overflow:hidden;background:#0a1b23;display:flex;flex-direction:column;min-height:390px}
+    .article-img{height:210px;overflow:hidden;position:relative}.article-img img{width:100%;height:100%;object-fit:cover;filter:saturate(.75)}
+    .article-body{padding:24px;display:flex;flex-direction:column;flex:1}.article-body span{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent)}
+    .article-body h3{margin:12px 0;font-size:1.35rem}.article-body p{font-size:.9rem}.article-body a{margin-top:auto;padding-top:20px;font-weight:800;font-size:.88rem;color:#dce8ec}
+
+    /* FAQ */
+    .faq{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px}
+    .faq-list{border-top:1px solid var(--line)}
+    details{border-bottom:1px solid var(--line);padding:20px 0}
+    summary{cursor:pointer;list-style:none;font-family:"Manrope";font-weight:700;display:flex;justify-content:space-between;gap:20px;align-items:center}
+    summary::-webkit-details-marker{display:none}
+    summary::after{content:"+";color:var(--accent);font-size:1.4rem;font-weight:400}
+    details[open] summary::after{content:"–"}
+    details p{padding-top:12px;max-width:740px;font-size:.92rem}
+
+    /* CONTACT */
+    .contact{padding-top:40px}
+    .contact-shell{border-radius:34px;border:1px solid var(--line);overflow:hidden;display:grid;grid-template-columns:.92fr 1.08fr;background:#091a22}
+    .contact-info{padding:46px;background:radial-gradient(circle at 10% 10%,rgba(81,224,193,.11),transparent 40%)}
+    .contact-info h2{font-size:clamp(2.35rem,4vw,4rem);margin:14px 0 22px}
+    .contact-lines{margin-top:36px;display:grid;gap:18px}
+    .contact-line{display:grid;grid-template-columns:42px 1fr;gap:14px;align-items:start}
+    .contact-line .dot{width:42px;height:42px;border-radius:14px;background:rgba(81,224,193,.09);display:grid;place-items:center;color:var(--accent)}
+    .contact-line strong{display:block;font-size:.88rem}.contact-line span{display:block;color:#93a8b1;font-size:.9rem;margin-top:3px}
+    .contact-form{padding:46px;background:#07151c}
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:.78rem;color:#a9bac1;font-weight:700}
+    .field input,.field select,.field textarea{width:100%;border:1px solid var(--line);background:rgba(255,255,255,.025);color:white;border-radius:14px;padding:14px 15px;outline:none;transition:.2s}
+    .field input:focus,.field select:focus,.field textarea:focus{border-color:rgba(81,224,193,.55);box-shadow:0 0 0 3px rgba(81,224,193,.07)}
+    .field textarea{min-height:130px;resize:vertical}
+    select option{background:#0b1d25;color:white}
+    .form-note{font-size:.74rem;margin:12px 0 18px;color:#718792}
+
+    /* FOOTER */
+    footer{padding:60px 0 28px}
+    .footer-top{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:40px;padding-bottom:36px;border-bottom:1px solid var(--line)}
+    .footer-brand p{margin-top:15px;max-width:500px;font-size:.9rem}.footer-col h4{margin:0 0 12px;font-size:.8rem;text-transform:uppercase;letter-spacing:.12em;color:#718994}.footer-col a{display:block;color:#b8c8ce;margin:7px 0;font-size:.9rem}
+    .footer-bottom{display:flex;justify-content:space-between;gap:20px;padding-top:22px;color:#6f8791;font-size:.78rem}
+
+    /* COOKIE */
+    .cookie{position:fixed;z-index:100;left:22px;right:22px;bottom:22px;max-width:760px;margin:auto;background:rgba(9,27,35,.97);backdrop-filter:blur(16px);border:1px solid var(--line);border-radius:18px;padding:16px 18px;display:none;align-items:center;justify-content:space-between;gap:18px;box-shadow:var(--shadow)}
+    .cookie.show{display:flex}.cookie p{font-size:.78rem}.cookie button{white-space:nowrap}
+
+    /* FLOAT */
+    .whatsapp{position:fixed;right:22px;bottom:22px;z-index:70;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#24d366;color:#052014;box-shadow:0 15px 35px rgba(0,0,0,.34);font-weight:900}
+    .whatsapp:hover{transform:translateY(-3px)}
+
+    /* MODAL */
+    .modal{position:fixed;inset:0;z-index:120;background:rgba(0,0,0,.72);display:none;place-items:center;padding:22px}.modal.open{display:grid}
+    .modal-card{width:min(760px,100%);max-height:84vh;overflow:auto;background:#0a1c24;border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:var(--shadow)}
+    .modal-head{display:flex;justify-content:space-between;gap:20px;align-items:start}.modal-close{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:transparent;color:white;cursor:pointer}.modal-card h3{font-size:1.7rem}.modal-card p{margin-top:14px}.modal-card ul{color:#a9bac1}
+
+    @media (max-width:980px){
+      nav,.nav-cta{display:none}.menu-btn{display:grid;place-items:center}.nav.open nav{display:flex;position:absolute;top:82px;left:20px;right:20px;flex-direction:column;align-items:stretch;background:#0a1b23;border:1px solid var(--line);padding:18px;border-radius:20px;box-shadow:var(--shadow)}
+      .hero-grid,.method,.feature,.who-grid,.faq,.contact-shell{grid-template-columns:1fr}
+      .hero{padding-top:130px}.hero-visual{min-height:510px}.hero-photo{inset:0 0 30px 30px}.floating-note{right:0}.hero-proof{grid-template-columns:1fr 1fr}.strip-grid{grid-template-columns:1fr 1fr}.strip-item:nth-child(2){border-right:0}.strip-item:nth-child(-n+2){border-bottom:1px solid var(--line)}
+      .challenge-grid{grid-template-columns:1fr 1fr}.method-sticky{position:static}.contexts{grid-template-columns:1fr 1fr}.insights{grid-template-columns:1fr 1fr}.article:first-child{grid-column:1/-1}.footer-top{grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}
+    }
+    @media (max-width:650px){
+      .wrap{width:min(calc(100% - 28px),var(--max))}.section{padding:78px 0}.section-head{flex-direction:column;align-items:start;margin-bottom:34px}
+      h1{font-size:clamp(2.8rem,14vw,4.1rem)}.hero{min-height:auto;padding-bottom:65px}.hero-grid{gap:36px}.hero-actions{flex-direction:column}.hero-actions .btn{width:100%}.hero-visual{min-height:440px}.hero-photo{inset:0 0 30px 0}.floating-note{display:none}.dashboard{width:86%;padding:16px}.hero-proof{margin-top:34px}.proof{padding:13px 8px}
+      .strip-grid,.challenge-grid,.services-grid,.contexts,.insights,.feature-list,.form-grid{grid-template-columns:1fr}.strip-item{border-right:0;border-bottom:1px solid var(--line)}.strip-item:last-child{border-bottom:0}.card-number{margin-bottom:28px}.service{min-height:270px}.feature-visual{min-height:420px}.feature-copy,.contact-info,.contact-form{padding:30px 24px}.who-main,.who-side{padding:28px}.context{min-height:145px}.article:first-child{grid-column:auto}.footer-top{grid-template-columns:1fr}.footer-brand{grid-column:auto}.footer-bottom{flex-direction:column}.cookie{left:12px;right:12px;bottom:88px;align-items:flex-start;flex-direction:column}.cookie button{width:100%}.whatsapp{right:16px;bottom:16px}
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <div class="wrap nav" id="navWrap">
+      <a class="brand" href="#inicio" aria-label="Work Remote Latam - início">
+        <span class="brand-mark">WR</span>
+        <span class="brand-copy"><strong>Work Remote Latam</strong><span>Auditoria Empresarial</span></span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#desafios">Desafios</a>
+        <a href="#solucoes">Soluções</a>
+        <a href="#metodologia">Metodologia</a>
+        <a href="#empresa">Empresa</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn-primary nav-cta" href="https://wa.me/5516991062614" target="_blank" rel="noopener">Falar no WhatsApp</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="orb"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Auditoria Empresarial • Araraquara/SP</span>
+          <h1><span>Mais clareza para enxergar riscos.</span> Mais segurança para decidir.</h1>
+          <p class="lead">Análise estruturada de processos, informações e controles para apoiar decisões empresariais com mais transparência, organização e confiança.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/5516991062614" target="_blank" rel="noopener">Falar com a Work Remote Latam</a>
+            <a class="btn btn-ghost" href="#solucoes">Conhecer a abordagem</a>
+          </div>
+          <div class="hero-proof" aria-label="Pilares de atuação">
+            <div class="proof"><strong>Precisão</strong><span>análise criteriosa</span></div>
+            <div class="proof"><strong>Clareza</strong><span>informação objetiva</span></div>
+            <div class="proof"><strong>Controle</strong><span>visão dos processos</span></div>
+            <div class="proof"><strong>Decisão</strong><span>mais segurança</span></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-photo">
+            <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=82" alt="Equipe executiva analisando informações em reunião" />
+          </div>
+          <div class="floating-note"><strong>Leitura objetiva do negócio</strong><p>Informações organizadas para destacar pontos de atenção e apoiar a gestão.</p></div>
+          <div class="dashboard">
+            <div class="dash-head"><small>Visão de acompanhamento</small><span class="status">Análise estruturada</span></div>
+            <div class="bars">
+              <i style="height:34%"></i><i style="height:47%"></i><i style="height:40%"></i><i style="height:59%"></i><i style="height:52%"></i><i style="height:73%"></i><i style="height:67%"></i><i style="height:82%"></i><i style="height:76%"></i><i style="height:91%"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip" aria-label="Princípios">
+      <div class="wrap strip-grid">
+        <div class="strip-item"><b>Visão independente</b><span>Uma leitura estruturada do cenário analisado.</span></div>
+        <div class="strip-item"><b>Foco em riscos</b><span>Pontos críticos ganham prioridade e contexto.</span></div>
+        <div class="strip-item"><b>Processo claro</b><span>Etapas, escopo e entregas organizados.</span></div>
+        <div class="strip-item"><b>Comunicação objetiva</b><span>Achados apresentados de forma compreensível.</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="desafios">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">Quando a auditoria faz sentido</span><h2>Problemas que ficam caros quando ninguém os enxerga.</h2></div>
+          <p>Nem sempre o risco aparece de forma evidente. Uma análise estruturada ajuda a transformar sinais dispersos em pontos concretos para avaliação.</p>
+        </div>
+        <div class="challenge-grid">
+          <article class="card"><div class="card-number">01</div><h3>Informações pouco confiáveis</h3><p>Divergências, registros inconsistentes ou baixa visibilidade sobre dados importantes para a gestão.</p></article>
+          <article class="card"><div class="card-number">02</div><h3>Controles fragilizados</h3><p>Rotinas sem validação, responsabilidades difusas e processos que dependem excessivamente de controles manuais.</p></article>
+          <article class="card"><div class="card-number">03</div><h3>Riscos sem mapeamento</h3><p>Pontos de exposição que permanecem invisíveis até que gerem impacto financeiro, operacional ou reputacional.</p></article>
+          <article class="card"><div class="card-number">04</div><h3>Crescimento desorganizado</h3><p>A operação cresce, mas os processos, registros e mecanismos de controle não acompanham o mesmo ritmo.</p></article>
+          <article class="card"><div class="card-number">05</div><h3>Processos sem padrão</h3><p>Atividades executadas de formas diferentes, com baixa rastreabilidade e dificuldade de acompanhamento.</p></article>
+          <article class="card"><div class="card-number">06</div><h3>Decisões com pouca base</h3><p>Gestores precisam decidir sem uma leitura consolidada dos fatos, riscos e informações disponíveis.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="solucoes">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">Nossa abordagem</span><h2>Auditoria conectada ao que realmente precisa ser entendido.</h2></div>
+          <p>A Work Remote Latam estrutura cada trabalho a partir do contexto da empresa e do escopo definido. O foco é gerar uma leitura organizada, útil e tecnicamente cuidadosa.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service"><span class="tag">Frente 01</span><h3>Auditoria Empresarial</h3><p>Avaliação estruturada de informações, rotinas e evidências relacionadas ao objeto analisado, conforme escopo contratado.</p></article>
+          <article class="service"><span class="tag">Frente 02</span><h3>Processos e Controles</h3><p>Leitura dos fluxos internos para identificar pontos de fragilidade, dependências, falhas de padronização e oportunidades de melhoria.</p></article>
+          <article class="service"><span class="tag">Frente 03</span><h3>Riscos e Pontos de Atenção</h3><p>Organização dos principais fatores de risco percebidos durante a análise, priorizando aquilo que merece atenção da gestão.</p></article>
+          <article class="service"><span class="tag">Frente 04</span><h3>Relato e Comunicação dos Achados</h3><p>Apresentação clara das constatações para facilitar entendimento, discussão interna e definição dos próximos passos.</p></article>
+        </div>
+        <p style="margin-top:18px;font-size:.78rem;color:#6f8791">Observação: os serviços efetivamente aplicáveis dependem do escopo formalmente definido com a empresa contratante. Este site não apresenta certificações, registros ou modalidades reguladas não informadas pela Work Remote Latam.</p>
+      </div>
+    </section>
+
+    <section class="section" id="metodologia">
+      <div class="wrap method">
+        <div class="method-sticky">
+          <span class="eyebrow">Como trabalhamos</span>
+          <h2>Um processo simples de entender. Rigoroso na execução.</h2>
+          <p>O objetivo é dar previsibilidade ao trabalho: entender o contexto, organizar evidências, analisar riscos e comunicar conclusões de forma clara.</p>
+        </div>
+        <div class="steps">
+          <article class="step"><div class="step-num">01</div><div><h3>Entendimento do contexto</h3><p>Levantamento inicial da operação, do objetivo do trabalho e do escopo a ser analisado.</p></div></article>
+          <article class="step"><div class="step-num">02</div><div><h3>Coleta e organização das informações</h3><p>Documentos, registros, fluxos e evidências são organizados de acordo com a necessidade do trabalho.</p></div></article>
+          <article class="step"><div class="step-num">03</div><div><h3>Análise dos processos e pontos de risco</h3><p>As informações são avaliadas de forma estruturada para destacar inconsistências, fragilidades e pontos relevantes.</p></div></article>
+          <article class="step"><div class="step-num">04</div><div><h3>Consolidação dos achados</h3><p>Os principais pontos são agrupados, contextualizados e organizados para facilitar entendimento e priorização.</p></div></article>
+          <article class="step"><div class="step-num">05</div><div><h3>Apresentação e próximos passos</h3><p>A entrega é apresentada de forma objetiva, permitindo que a gestão avalie medidas e decisões posteriores.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tecnologia">
+      <div class="wrap feature">
+        <div class="feature-visual">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=82" alt="Dashboard de dados empresariais em ambiente de trabalho" />
+        </div>
+        <div class="feature-copy">
+          <span class="eyebrow">Informação bem organizada</span>
+          <h2>Auditoria não é só procurar erros.</h2>
+          <p class="lead">É construir uma leitura mais confiável do negócio, transformando documentos, processos e evidências em informação útil para a gestão.</p>
+          <div class="feature-list">
+            <div class="check"><b>✓</b> Maior visibilidade sobre riscos</div>
+            <div class="check"><b>✓</b> Melhor compreensão dos processos</div>
+            <div class="check"><b>✓</b> Identificação de fragilidades</div>
+            <div class="check"><b>✓</b> Base mais clara para decisões</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="empresa">
+      <div class="wrap who-grid">
+        <div class="who-main">
+          <span class="eyebrow">Work Remote Latam</span>
+          <h2>Uma empresa de auditoria com base em Araraquara/SP.</h2>
+          <p>A Work Remote Latam atua com foco em análise, organização de informações e leitura de processos empresariais. Cada trabalho parte de um escopo definido e busca apresentar os pontos observados de maneira clara, objetiva e útil para a gestão.</p>
+        </div>
+        <div class="who-side">
+          <div class="quote">“Boa auditoria começa com perguntas certas, evidências organizadas e comunicação clara.”</div>
+          <small>Posicionamento institucional da Work Remote Latam</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">Contextos empresariais</span><h2>Uma abordagem adaptável ao momento da organização.</h2></div>
+          <p>A aplicação concreta depende do escopo contratado, mas a metodologia pode ser útil em diferentes cenários de negócio.</p>
+        </div>
+        <div class="contexts">
+          <div class="context"><span>01</span><h3>Empresas em crescimento</h3></div>
+          <div class="context"><span>02</span><h3>Operações com processos complexos</h3></div>
+          <div class="context"><span>03</span><h3>Negócios em reorganização</h3></div>
+          <div class="context"><span>04</span><h3>Gestões buscando mais controle</h3></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="insights">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">Insights</span><h2>Conteúdo para gestores que querem enxergar melhor a operação.</h2></div>
+          <p>Temas introdutórios para ajudar empresas a entender quando uma auditoria pode fazer sentido e quais sinais merecem atenção.</p>
+        </div>
+        <div class="insights">
+          <article class="article">
+            <div class="article-img"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1000&q=82" alt="Profissionais analisando documentos e indicadores" /></div>
+            <div class="article-body"><span>Auditoria empresarial</span><h3>Quando sua empresa deve considerar uma auditoria?</h3><p>Crescimento acelerado, informações divergentes, controles frágeis e dificuldade de acompanhar processos são alguns sinais que merecem avaliação.</p><a href="#" data-article="1">Ler resumo →</a></div>
+          </article>
+          <article class="article">
+            <div class="article-img"><img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=900&q=82" alt="Reunião corporativa de análise" /></div>
+            <div class="article-body"><span>Controles internos</span><h3>5 sinais de que seus controles precisam de atenção</h3><p>Dependência de planilhas isoladas, baixa rastreabilidade e responsabilidades mal definidas podem indicar fragilidades.</p><a href="#" data-article="2">Ler resumo →</a></div>
+          </article>
+          <article class="article">
+            <div class="article-img"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=82" alt="Painel de dados em notebook" /></div>
+            <div class="article-body"><span>Gestão</span><h3>Como se preparar para um trabalho de auditoria</h3><p>Organização prévia de documentos, responsáveis e objetivos reduz ruído e melhora a eficiência da análise.</p><a href="#" data-article="3">Ler resumo →</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap faq">
+        <div>
+          <span class="eyebrow">Perguntas frequentes</span>
+          <h2 style="margin-top:12px">O que empresas costumam querer saber antes de começar.</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>O que a Work Remote Latam audita?</summary><p>O escopo deve ser definido caso a caso. O site apresenta uma abordagem geral de auditoria empresarial, análise de processos, informações, controles e riscos. Modalidades específicas dependem de validação e contratação.</p></details>
+          <details><summary>Uma auditoria serve apenas para encontrar erros?</summary><p>Não. Uma análise de auditoria também pode ajudar a organizar informações, aumentar a visibilidade sobre riscos, compreender processos e apoiar decisões de gestão.</p></details>
+          <details><summary>Quanto tempo leva um trabalho de auditoria?</summary><p>O prazo depende do escopo, volume de informações, disponibilidade de documentos e complexidade da operação. A estimativa deve ser definida após entendimento inicial da necessidade.</p></details>
+          <details><summary>É necessário enviar documentos antes da proposta?</summary><p>Nem sempre. O primeiro contato pode ser usado para entender o objetivo e delimitar o escopo. Depois disso, a empresa pode solicitar as informações necessárias para dimensionar o trabalho.</p></details>
+          <details><summary>A empresa realiza auditoria independente regulada?</summary><p>Este site não afirma atuação em modalidades reguladas, nem registro em órgãos específicos. Caso essa seja a necessidade da sua empresa, confirme diretamente com a Work Remote Latam antes da contratação.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="wrap contact-shell">
+        <div class="contact-info">
+          <span class="eyebrow">Fale com a gente</span>
+          <h2>Vamos entender o cenário da sua empresa?</h2>
+          <p>Apresente sua necessidade e converse com a Work Remote Latam sobre o escopo mais adequado para avaliação.</p>
+          <div class="contact-lines">
+            <a class="contact-line" href="https://wa.me/5516991062614" target="_blank" rel="noopener"><span class="dot">↗</span><span><strong>WhatsApp</strong><span>+55 16 99106-2614</span></span></a>
+            <a class="contact-line" href="tel:+5516991062614"><span class="dot">☎</span><span><strong>Telefone</strong><span>+55 16 99106-2614</span></span></a>
+            <a class="contact-line" href="https://www.google.com/maps/search/?api=1&query=R.%20Edson%20Alberto%20Morandi%20Jardim%20Arco-Iris%20Araraquara%20SP%2014808-326" target="_blank" rel="noopener"><span class="dot">⌖</span><span><strong>Localização</strong><span>R. Edson Alberto Morandi - Jardim Arco-Iris, Araraquara - SP, 14808-326</span></span></a>
+          </div>
+          <div style="margin-top:34px;border-radius:20px;overflow:hidden;border:1px solid var(--line);height:220px">
+            <iframe title="Mapa da Work Remote Latam" src="https://www.google.com/maps?q=R.%20Edson%20Alberto%20Morandi%20Jardim%20Arco-Iris%20Araraquara%20SP%2014808-326&output=embed" width="100%" height="100%" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="contact-form">
+          <span class="eyebrow">Solicitar contato</span>
+          <h3 style="font-size:1.9rem;margin:14px 0 28px">Conte brevemente o que sua empresa precisa analisar.</h3>
+          <form id="leadForm">
+            <div class="form-grid">
+              <div class="field"><label for="nome">Nome</label><input id="nome" required placeholder="Seu nome" /></div>
+              <div class="field"><label for="empresaForm">Empresa</label><input id="empresaForm" required placeholder="Nome da empresa" /></div>
+              <div class="field"><label for="telefone">Telefone</label><input id="telefone" required placeholder="(00) 00000-0000" /></div>
+              <div class="field"><label for="necessidade">Necessidade</label><select id="necessidade"><option>Auditoria empresarial</option><option>Análise de processos e controles</option><option>Mapeamento de riscos</option><option>Outra necessidade</option></select></div>
+              <div class="field full"><label for="mensagem">Mensagem</label><textarea id="mensagem" placeholder="Explique brevemente o contexto da sua empresa."></textarea></div>
+            </div>
+            <p class="form-note">Ao enviar, você será direcionado ao WhatsApp da Work Remote Latam com os dados preenchidos.</p>
+            <button class="btn btn-primary" type="submit">Enviar pelo WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="#inicio"><span class="brand-mark">WR</span><span class="brand-copy"><strong>Work Remote Latam</strong><span>Auditoria Empresarial</span></span></a>
+          <p>Empresa de auditoria em Araraquara/SP. Conteúdo institucional com foco em análise de processos, informações, controles e riscos, conforme escopo contratado.</p>
+        </div>
+        <div class="footer-col"><h4>Navegação</h4><a href="#desafios">Desafios</a><a href="#solucoes">Soluções</a><a href="#metodologia">Metodologia</a><a href="#empresa">Empresa</a></div>
+        <div class="footer-col"><h4>Contato</h4><a href="https://wa.me/5516991062614" target="_blank" rel="noopener">WhatsApp</a><a href="tel:+5516991062614">+55 16 99106-2614</a><a href="#contato">Araraquara/SP</a><a href="#" id="privacyLink">Privacidade</a></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> Work Remote Latam. Todos os direitos reservados.</span><span>Site institucional • Auditoria empresarial</span></div>
+    </div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/5516991062614" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">WA</a>
+
+  <div class="cookie" id="cookieBox">
+    <p>Este site utiliza apenas recursos essenciais de navegação e pode carregar conteúdo externo, como fontes e mapa. Consulte a política de privacidade para mais informações.</p>
+    <button class="btn btn-primary" id="cookieOk">Entendi</button>
+  </div>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-card">
+      <div class="modal-head"><div><span class="eyebrow" id="modalEyebrow">Conteúdo</span><h3 id="modalTitle">Título</h3></div><button class="modal-close" id="modalClose" aria-label="Fechar">×</button></div>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script>
+    const header = document.getElementById('header');
+    const menuBtn = document.getElementById('menuBtn');
+    const navWrap = document.getElementById('navWrap');
+    window.addEventListener('scroll',()=>header.classList.toggle('scrolled',window.scrollY>20));
+    menuBtn.addEventListener('click',()=>{
+      const open=navWrap.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded',open?'true':'false');
+      menuBtn.textContent=open?'×':'☰';
+    });
+    document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{navWrap.classList.remove('open');menuBtn.textContent='☰';menuBtn.setAttribute('aria-expanded','false')}));
+
+    document.getElementById('year').textContent=new Date().getFullYear();
+
+    document.getElementById('leadForm').addEventListener('submit',e=>{
+      e.preventDefault();
+      const nome=document.getElementById('nome').value.trim();
+      const empresa=document.getElementById('empresaForm').value.trim();
+      const telefone=document.getElementById('telefone').value.trim();
+      const necessidade=document.getElementById('necessidade').value;
+      const mensagem=document.getElementById('mensagem').value.trim();
+      const texto=`Olá, Work Remote Latam. Meu nome é ${nome}.\nEmpresa: ${empresa}\nTelefone: ${telefone}\nNecessidade: ${necessidade}\nMensagem: ${mensagem || 'Gostaria de conversar sobre uma auditoria.'}`;
+      window.open('https://wa.me/5516991062614?text='+encodeURIComponent(texto),'_blank','noopener');
+    });
+
+    const cookieBox=document.getElementById('cookieBox');
+    if(!localStorage.getItem('wrl_cookie_ok')) cookieBox.classList.add('show');
+    document.getElementById('cookieOk').addEventListener('click',()=>{localStorage.setItem('wrl_cookie_ok','1');cookieBox.classList.remove('show')});
+
+    const modal=document.getElementById('modal');
+    const modalTitle=document.getElementById('modalTitle');
+    const modalEyebrow=document.getElementById('modalEyebrow');
+    const modalBody=document.getElementById('modalBody');
+    const articles={
+      1:{e:'Auditoria empresarial',t:'Quando sua empresa deve considerar uma auditoria?',b:'<p>Alguns sinais aparecem antes de um problema maior: divergências recorrentes nas informações, controles que dependem de poucas pessoas, dificuldade para rastrear decisões, crescimento sem revisão dos processos e baixa visibilidade sobre riscos.</p><p>Uma auditoria pode ajudar a organizar esses pontos, estruturar evidências e oferecer uma leitura mais clara do cenário analisado. O escopo precisa ser definido conforme a necessidade real da empresa.</p>'},
+      2:{e:'Controles internos',t:'5 sinais de que seus controles precisam de atenção',b:'<ul><li>Planilhas e controles paralelos sem padronização.</li><li>Processos importantes dependentes de uma única pessoa.</li><li>Dificuldade para comprovar ou rastrear aprovações.</li><li>Diferenças frequentes entre registros e realidade operacional.</li><li>Falta de clareza sobre quem é responsável por cada etapa.</li></ul><p>Esses sinais não significam, por si só, que exista irregularidade. Eles indicam pontos que podem merecer análise e melhoria.</p>'},
+      3:{e:'Gestão',t:'Como se preparar para um trabalho de auditoria',b:'<p>Comece definindo o objetivo do trabalho. Depois, identifique responsáveis internos, organize os documentos relacionados ao escopo e registre dúvidas ou situações que já preocupam a gestão.</p><p>Quanto mais claro estiver o contexto inicial, mais eficiente tende a ser a coleta de evidências e a comunicação durante a análise.</p>'},
+      privacy:{e:'Privacidade',t:'Política de Privacidade',b:'<p>Este site é institucional e não possui cadastro de usuários. O formulário de contato não armazena dados em servidor próprio: ao enviar, os dados são usados apenas para montar uma mensagem e abrir o WhatsApp.</p><p>Recursos externos, como Google Fonts, imagens e Google Maps, podem processar dados técnicos de navegação conforme suas próprias políticas.</p><p>Para assuntos relacionados à privacidade, utilize o telefone/WhatsApp da Work Remote Latam: +55 16 99106-2614.</p>'}
+    };
+    function openModal(data){modalEyebrow.textContent=data.e;modalTitle.textContent=data.t;modalBody.innerHTML=data.b;modal.classList.add('open');modal.setAttribute('aria-hidden','false')}
+    document.querySelectorAll('[data-article]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();openModal(articles[e.currentTarget.dataset.article])}));
+    document.getElementById('privacyLink').addEventListener('click',e=>{e.preventDefault();openModal(articles.privacy)});
+    document.getElementById('modalClose').addEventListener('click',()=>{modal.classList.remove('open');modal.setAttribute('aria-hidden','true')});
+    modal.addEventListener('click',e=>{if(e.target===modal){modal.classList.remove('open');modal.setAttribute('aria-hidden','true')}});
+    window.addEventListener('keydown',e=>{if(e.key==='Escape') modal.classList.remove('open')});
+  </script>
+</body>
+</html>
